@@ -38,7 +38,7 @@ class SchalkExampleElement extends HTMLElement {
 		this.inner.innerHTML = /* html */ `
       <label>
         <span>Colorize!</span>
-        <input value="${colour}">
+        <input value="${colour ?? ""}">
         <button>Apply</button>
       </label>
     `;
